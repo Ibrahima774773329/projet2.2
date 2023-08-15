@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light py-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Aceuil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Produits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Apropos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+        </li>
+         <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+        </button>
+        <ul class="dropdown-menu">
+            <li>
+                <!-- Formulaire d'inscription -->
+                <form class="px-4 py-3" id="inscriptionForm">
+                    <div class="mb-3">
+                        <label for="username">votre nom</label>
+                        <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur">
+                    </div>
+                    <div class="mb-3">
+                        <label for="username">votre prenom</label>
+                        <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Adresse e-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Adresse e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+                    </div>
+                    <button type="submit" class="btn btn-primary">envoiyer</button>
+                </form>
+            </li>
+           <li>
+      </ul>  
+    </div>
+  </div> 
+     </div>     
+    </header>              
+    <!-- hero section -->
+ <section class="bg-light py-5">
+  <div class="container">
+    <div class="card">
+      <div class="row text-start align-items-start">
+     
+      <img src="Images/box1.jpg" alt="" class="img-fluid w-100" width="1000%">
+
+        <div class="card-img-overlay d-flex flex-column justify-content-start align-items-start text-black">
+            
+              <h1 class="fw-bolder fs-1">
+                Donnez à votre entraînement
+                un nouveau style!
+              </h1>
+              <p class="lead my-5">
+                Le succès n'est pas toujours une question de grandeur.
+                C'est une question de cohérence.<br> Un travail acharné et consistant gagne du succès, la grandeur viendra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--produit -->
+<section class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="fw-bolder my-5">Catégories T-shirts</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="Images/box2.jpg" alt="" class="img-fluid" style="max-height: 400px;">
+        <p>T-shirt Rouge</p>
+        <p class="card-text">5000f cfa</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/box3.jpg" alt="" class="img-fluid" style="max-height: 400px;">
+        <p>T-shirt Rouge</p>
+          <p class="card-text">5000f cfa</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/box5.jpg" alt="" class="img-fluid" style="max-height: 400px;">
+        <p>T-shirt blanche</p>
+          <p class="card-text">5000f cfa</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--produit  -->
+<section class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="fw-bolder my-5">Catégories chaussures</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="Images/box7.jpg" alt="" class="img-fluid" style="max-height: 300px;">
+        <p>T-shirt Rouge</p>
+          <p class="card-text">10.000f cfa</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/box8.jpg" alt="" class="img-fluid" style="max-height: 300px;">
+        <p>T-shirt Rouge</p>
+          <p class="card-text">10.000f cfa</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/box9.jpg" alt="" class="img-fluid" style="max-height: 300px;">
+        <p>T-shirt blanche</p>
+          <p class="card-text">10.000f cfa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!-- section bracelet --> 
+     <section class="bg-light py-5">
+      <div class="container my-5">
+           <div class="row">
+        <div class="col-sm-5 d-flex justify-content-center">
+        <img src="Images/box12.jpg" alt="" class="img-fluid w-50">
+        </div>
+         <div class="col-sm-7"> 
+         <h1 class="fw-bolder mt-5">Smart Band 4</h1>
+         <figcaption class="blockquote-footer mt-1">
+          Exclusivement disponible sur casa businesse  
+         </figcaption>
+         <p class="my-5">Le Mi smart Band 4 dispose a 50% </p>
+         <button class="btn btn-success btn-lg rounded-pill">Achetez Maintenant</button>   
+      </div>
+     </section>
+      <!-- temoignage -->
+    
+    <section class="py-5">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center py-5 card w-27">
+                      <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+                      
+                      <div class="d-flex justify-content-center">
+                        <img src="Images/box14.jpg" alt="" class="img-fluid rounded-circle w-20" style="width: 200px; height: 200px;">
+                    </div>
+                    <h3 class="card-title">Albert Fortune</h3>
+                </div>
+                </div>
+               <div class="col-sm-4">
+                    <div class="card text-center py-5 card w-27">
+                      <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+                      
+                      <div class="d-flex justify-content-center">
+                        <img src="Images/box15.jpg" alt="" class="img-fluid rounded-circle w-20" style="width: 200px; height: 200px;">
+                    </div>
+                    <h3 class="card-title">Tony Almeda</h3>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center py-5 card w-27">
+                      <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+                                         
+                      <div class="d-flex justify-content-center">
+                        <img src="Images/box16.jpg" alt="" class="img-fluid rounded-circle w-20" style="width: 200px; height: 200px;">
+                    </div>
+                    <h3 class="card-title">Luna Fashion</h3>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+      <!-- partners -->
+      <section class="py-5">
+        <div class="container my-8">
+        <div class="d-flex justify-content-center">
+          <img src="Images/cola.png" alt="">
+            <img class="mx-4" src="Images/payment-1.png" alt="">
+              <img class="mx-4" src="Images/payment-2.png" alt="">
+                <img class="mx-4" src="Images/payment-4.png" alt="">
+                  <img class="mx-4" src="Images/payment-5.png" alt="">
+
+           </div>
+        </div>
+     
+      </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>À propos de nous</h5>
+                    <p>Nous sommes une boutique en ligne proposant une large sélection de produits de qualité.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: contact@monsite.com<br>Téléphone: +221774773329</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Suivez-nous</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Facebook</a></li>
+                        <li><a href="#" class="text-light">Twitter</a></li>
+                        <li><a href="#" class="text-light">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inclure le script Bootstrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
